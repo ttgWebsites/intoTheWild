@@ -1,0 +1,70 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script src="scripts.js"></script>
+    
+
+<title>Home</title>
+</head>
+<body>
+	<div data-role="page" id="themes">
+		<div data-role="panel" id="menuPanel" data-theme="a" data-position-fixed="true">
+			<ul data-role="listview" data-theme="a">
+				<li><a href="basicInfo.html">Basic Info</a></li>
+				<li><a href="interestingDetails.html">Interesting Details</a></li>
+				<li><a href="bookSummary.html">Book Summary</a></li>
+				<li><a href="themes.html" class="ui-btn-active ui-state-persist">Themes</a></li>
+				<li><a href="characters.html">Characters</a></li>
+				<li><a href="chapterSummaries.html">Chapter Summaries</a></li>
+				<li><a href="essayTopics.html">Essay Topics</a></li>
+			</ul>
+		</div><!--PANEL-->	
+		<div data-role="header" data-id="fixhead" data-position="fixed" data-tap-toggle="false">
+			<a href="#menuPanel" data-role="button" data-iconpos="notext" data-icon="bars"></a>
+			<h1>Themes</h1>
+			<a href="index.html" data-role="button" data-iconpos="notext" data-icon="home"></a>
+		</div><!--HEADER-->
+		<div data-role="content">
+			<div>
+				<!--For each section, paste the text in place of the bolded keyword-->
+				<!--Copy more from <ul *to* /ul> if more themes needed-->
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Freedom</li>
+					<li data-theme="d">Freedom might be the main theme of Into the Wild, McCandless spends his entire journey trying to escape from society and authority</li>
+					<li data-theme="c">McCandless believes his trip into Alaska will offer him the ultimate freedom where the only laws that govern him are the laws of nature</li>
+					<li data-theme="d">It is rather ironic however that freedom could possibly be the cause of McCandless death. No one really knows where he is and he has no way of getting in touch with society while in the wild and therefore when he becomes ill, he ultimately dies</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">The father son relationship</li>
+					<li data-theme="d">Chris McCandless spends much of his last few years at home and in college having a very bitter relationship with his father</li>
+					<li data-theme="c">He seems to resent his father and his oppressive nature, and this is not helped when Chris discovers his fathers infidelity</li>
+					<li data-theme="d">It seems part of the reason Chris seeks freedom is due to the relationship he has with his father</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">The wilderness' allure</li>
+					<li data-theme="d">McCandless sees the journey into the wilderness as the ultimate test of himself as well as the perfect way to achieve freedom</li>
+					<li data-theme="c">He sees the wilderness as a place where he can rely on himself and his self alone to survive</li>
+					<li data-theme="d">The Alaskan wilderness seems the ideal location for McCandless as their aren't many other places on earth that present the challenge Alaska does</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Principles before people</li>
+					<li data-theme="d">While growing up McCandless, though outgoing, seems very content with just the company of himself</li>
+					<li data-theme="c">As he goes through college he seems to push his friends and family farther away</li>
+					<li data-theme="d">It seems as if McCandless does not seem to trust others as he does himself because he sees them as lacking principles</li>
+					<li data-theme="c">McCandless is often upset by people who seem to lack principles and he ultimately chooses to leave behind society and enter the wild</li>
+				</ul>
+			</div>
+		</div><!--CONTENT-->
+		<div data-role="footer" data-id="fixfoot" data-position="fixed" data-tap-toggle="false">
+			<!--Replace the text below with the name of the book-->
+			<h3>Into The Wild</h3>
+		</div><!--FOOTER-->
+	</div><!--PAGE-->
+</body>
+</html>

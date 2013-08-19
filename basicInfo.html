@@ -1,0 +1,74 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script src="scripts.js"></script>
+
+<title>Home</title>
+</head>
+<body>
+	<div data-role="page" id="basicInfo">
+		<div data-role="panel" id="menuPanel" data-theme="a" data-position-fixed="true">
+			<ul data-role="listview" data-theme="a">
+				<li><a href="basicInfo.html" class="ui-btn-active ui-state-persist">Basic Info</a></li>
+				<li><a href="interestingDetails.html">Interesting Details</a></li>
+				<li><a href="bookSummary.html">Book Summary</a></li>
+				<li><a href="themes.html">Themes</a></li>
+				<li><a href="characters.html">Characters</a></li>
+				<li><a href="chapterSummaries.html">Chapter Summaries</a></li>
+				<li><a href="essayTopics.html">Essay Topics</a></li>
+			</ul>
+		</div><!--PANEL-->	
+		<div data-role="header" data-id="fixhead" data-position="fixed" data-tap-toggle="false">
+			<a href="#menuPanel" data-role="button" data-iconpos="notext" data-icon="bars"></a>
+			<h1>Basic Info</h1>
+			<a href="index.html" data-role="button" data-iconpos="notext" data-icon="home"></a>
+		</div><!--HEADER-->
+		<div data-role="content">
+			<div>
+				<!--For each section, paste the text in place of the bolded keyword-->
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Title</li>
+					<li data-theme="d">Into The Wild</li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Author</li>
+					<li data-theme="d">John Krakauer</li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Published</li>
+					<li data-theme="d">New York. Villard, 1996</li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Genre</li>
+					<li data-theme="d">Biography, Adventure</li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Setting</li>
+					<li data-theme="d">The novel follows Christopher McCandless' journey through the United States, Mexico, 
+					and Canada eventually leading to his death in Alaska. Throughout the novel various locations in the mid-west, west coast, 
+					and Alaska are mentioned in particular in which McCandless left his mark before entering the 'Wild'.</li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Point Of View</li>
+					<li data-theme="d">The novel is told in first and third person point of view by the author John Krakauer. Krakauer is in the first 
+					person as he describes his meetings with those who knew McCandless, and in the third person when detailing McCandless' journey.</li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Conflict</li>
+					<li data-theme="d">The major conflict depicted in the biography is between McCandless and his beliefs of society as well as his parents. 
+					McCandless struggles to cope with his parents marital issues, also he is dissatisfied with what he believes to be conformity everywhere
+					especially in the college setting. He longs to set himself free and go on a life altering adventure. However his adventure brings even more
+					conflicts, as he is not quite prepared for some of the challenges and succumbs to death in the Alaskan wilderness.</li>
+				</ul>
+			</div>
+		</div><!--CONTENT-->
+		<div data-role="footer" data-id="fixfoot" data-position="fixed" data-tap-toggle="false">
+			<!--Replace the text below with the name of the book-->
+			<h3>Into The Wild</h3>
+		</div><!--FOOTER-->
+	</div><!--PAGE-->
+</body>
+</html>
